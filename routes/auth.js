@@ -25,6 +25,7 @@ router.post('/register', async (request, response) => {
 
     response.json(user);
   } catch (error) {
+    console.log(error)
     response.status(400).json({ error: "Registration failed." });
   }
 });
