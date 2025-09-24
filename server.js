@@ -13,5 +13,6 @@ app.use(express.json())
 app.use('/auth', authRoutes);
 app.use('/transactions', transactionsRoutes);
 
+
 const PORT = process.env.PORT | 5000;
 app.listen(PORT, () => console.log(`the server running on port ${PORT}`))
