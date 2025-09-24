@@ -9,4 +9,5 @@ const db = knex({
   ssl: true
 });
 
+
 export default db;
